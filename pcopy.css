@@ -1,7 +1,4 @@
-/*.container{
-	margin-left: 20px;
-	margin-right: 20px;
-}*/
+
 h1{
 	font-size: 30px;
 }
@@ -29,11 +26,6 @@ hr {
 	height: 400px;
 	display: block;
 }
-/*.work img{
-	width: 10%;
-	height: 10%;
-	display: inline;
-}*/
 .social{
 	text-align: center;
 	position: absolute;
@@ -43,49 +35,60 @@ hr {
 .one img {
 	padding-left: 32px;
 }
-.logo{
-	
-}
-.logo img{
-	width: 10%;
-	height: 10%;
-}
-/*.two{
-	width: 30%;
-	float: left;
-	display: inline;
-}*/
 .three{
 	width: 25%;
 	float: left;
 	display: inline;
 }
-/*.two img{
-	width: 87%;
-	padding-top: 8%;
-	padding-left: 15%;
-}
-}*/
-/*.three img{
-
-	width: 86%;
-	padding-left: 30%
-}*/
 a{
 	text-decoration: none;
 }
-/*.caption{
-	text-align: center;
-	position: absolute;
-	top: 26%;
-	left: 8%;
-}*/
 .typed{
 	text-align: center;
 	position: absolute;
 	top: 26%;
 	left: 8%;
 	font-size: 24px;
+}
+@media only screen and (max-width: 539px){
+	.summary img{
+		height: 600px;
+	}
+	.social{
+		top: 80%;
+	}
+}
+.logo img{
+	padding-top: 2%;
+}
+@media only screen and (min-width: 992px){
+	.logo img{
+		width: 17%;
+	}
+}
+@media only screen and (min-width: 768px)and (max-width: 991px){
+	.logo img{
+		width: 27%;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	.logo img{
+		width: 43%;
+	}
+}
+@media only screen and (max-width: 575px){
+	.logo img{
+		width: 60%;
+		padding-top: 2%;
+		padding-left: 30%;
+	}
+	.name{
+		float: none;
+		padding-left: 20%;
+	}
+	.typed{
+		top: 20%;
+	}
 }
 
 
