@@ -2,6 +2,9 @@
 h1{
 	font-size: 30px;
 }
+h2{
+	color: grey;
+}
 h4{
 	font-size: 14px;
 }
@@ -17,11 +20,11 @@ hr {
 	color: grey;
 	padding-top: 32px;
 }
-.summary{
+.main{
 	position: relative;
 	/*display: inline-block;*/
 }
-.summary img{
+.main > img{
 	width: 100%;
 	height: 400px;
 	display: block;
@@ -31,6 +34,15 @@ hr {
 	position: absolute;
 	top: 70%;
 	left: 40%;
+}
+.img1 p{
+	padding-left: 70px;
+}
+.img2 p{
+	padding-left: 17%;
+}
+.img3 p{
+	padding-left: 20%;
 }
 .one img {
 	padding-left: 32px;
@@ -51,7 +63,7 @@ a{
 	font-size: 24px;
 }
 @media only screen and (max-width: 539px){
-	.summary img{
+	.main > img{
 		height: 600px;
 	}
 	.social{
